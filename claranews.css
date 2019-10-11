@@ -1,0 +1,135 @@
+.content{
+    margin: 0 10%;
+}
+
+.data_no_cabecalho{
+//estéticos
+   font-family: 'Raleway', sans-serif;
+   font-size: 14px;
+   letter-spacing: 1px;
+   font-weight: 700;
+   color: #222;
+//posicionamento
+    vertical-align: baseline;
+    text-align: center;
+    line-height: 26px !important;
+//barra
+    background-color: #fff;
+    border-bottom: 1px solid #e4e4e4;
+    height: 40px;
+    width: 100%;
+    line-height: 42px;
+    z-index: 111;
+}
+
+.claracap{
+    padding: 3%;
+}
+
+.cabecalho{
+    width: 100%;
+    height: 55px;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #fff;
+    border-top: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    
+}
+.cabecalho a{
+//estilo
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: #222;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+//posicionamento
+    line-height: 16px;
+    padding: 0px 20px;
+//area de menu
+    transition: background-color .3s ease;
+}
+
+
+.destaque{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: red;
+    line-height: 1.285714285714286em;
+    letter-spacing: 1px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 10px 10px;
+    vertical-align: baseline;
+    text-align: left;
+}
+
+.manchete{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 10px 10px;
+    vertical-align: baseline;
+    color: #222;
+    font-size: 20px;
+    text-align: left;
+    left: 7px; 
+    max-width: 70%; 
+    padding: 3%;
+}
+.meme {
+    margin: 8px;
+    max-width:700px;
+    max-height:700px;
+    object-fit: fill;
+    position: relative;
+    top: 30px;
+    left: 25px;
+}
+
+.lateral{
+    display: inline-block;
+    float: right;
+    margin: 2% 4%;
+}
+
+.manchetinhas{
+    vertical-align: baseline;
+    font-family: 'Roboto';
+
+}
+
+.manchetes_menores{
+    display: flex;
+    float: right;
+    padding: 10px 10px;
+    max-width: 90%;
+    width: 100%;
+    margin: 3%;
+    text-align: left;
+    font-family: 'Roboto';
+    color: #555;
+    font-weight: 400;
+    justify-content:space-evenly;
+}
+
+.tit_manchetinhas{
+    color: #222;
+}
+.paragrafo, .texto{
+    color: #555;
+    font-weight: 400;
+    font-family: 'Roboto';
+}
+
+.claras{
+    margin: 10px;
+    max-width: 500px;
+    max-height: 500px;
+}
+
+
