@@ -64,8 +64,7 @@
     letter-spacing: 1px;
     font-weight: 500;
     text-transform: uppercase;
-    margin: 10px 10px;
-    vertical-align: baseline;
+    vertical-align: text-bottom;
     text-align: left;
 }
 
@@ -100,7 +99,9 @@
 .manchetinhas{
     vertical-align: baseline;
     font-family: 'Roboto';
-
+    max-width: 550px;
+    overflow: visible;
+    margin: 0 100px 0 0;
 }
 
 .manchetes_menores{
@@ -110,7 +111,7 @@
     max-width: 90%;
     width: 100%;
     margin: 3%;
-    text-align: left;
+    text-align: middle;
     font-family: 'Roboto';
     color: #555;
     font-weight: 400;
@@ -124,6 +125,7 @@
     color: #555;
     font-weight: 400;
     font-family: 'Roboto';
+    overflow: visible;
 }
 
 .claras{
